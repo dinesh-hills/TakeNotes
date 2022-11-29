@@ -16,3 +16,13 @@ def get_note(request, pk):
     serializer = NoteSerializer(query_set)
     return Response(serializer.data)
     
+    
+@api_view(['PUT'])
+def update_note(request, pk):
+    data = request.data
+    note = Note.objects.filter(pk=pk)
+    serializer = NoteSerializer(note, data=data)
+    serializer.is_valid()
+    serializer.save()
+    
+    return Response(serializer.data)
