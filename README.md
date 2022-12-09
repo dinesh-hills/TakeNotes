@@ -1,5 +1,5 @@
 # Take Notes
-![django_react_notes_app](https://user-images.githubusercontent.com/118039836/206764290-0c9264fa-86c5-4ee2-abdd-9713f783549e.png)
+<img src="https://user-images.githubusercontent.com/118039836/206764290-0c9264fa-86c5-4ee2-abdd-9713f783549e.png" alt="dinesh-hills project" width="200"/>
 A notes taking web app with React JS as frontend and Django DRF as backend working together to have seamless note taking experience.
 
 ### Setup guide
